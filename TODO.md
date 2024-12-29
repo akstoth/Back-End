@@ -1,2 +1,12 @@
+ # Lista de tarefas
  - [x] Criando um servidor sem framework
- - [ ] Criando um servidor com framework
+ - [x] Criando um servidor com framework
+    - [ ] CRUD(Create, Read, Update, Delete)
+        - [ ] Rotas
+        - [ ] Request Body
+        - [ ] Route parameters
+    - [ ] Banco de dados em memória
+    - [ ] Banco de dados
+        - [ ] PostgresJS
+    - [ ] Deploy do projeto
+        - [ ] Render
