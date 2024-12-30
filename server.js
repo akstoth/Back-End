@@ -30,7 +30,7 @@ server.listen(3333) // Porta que o servidor vai rodar
 // ########################################################################################
 // Segundo: Com uma framework
 import {fastify} from 'fastify'// Importa a função Fastify do módulo fastify
-import {DatabaseMemory} from './database-memory.js'
+import {DatabaseMemory} from './database-memory.js' // Importa a classe DatabaseMemory do arquivo database-memory.js
 
 const server = fastify() // Cria um servidor com a função Fastify
 
@@ -43,6 +43,7 @@ server.post('/videos', (request, reply) =>{
         description: 'Esse é o video 01',
         duration: 180,
     })
+    
     console.log(database.list())
 
     return reply.status(201).send() // Retorna o status-code da minha rota, 201: Created

@@ -118,3 +118,7 @@ server.delete('/videos/:id', () => {
  - Cria-se um arquivo database-memori.js
  - Após essa criação, precisa-se criar um arquivo de rotas. Baixamos o rest client primeiro
  - Cria-se o arquivo .http para criar a nossa primeira rota
+ - Estrutura de dados: Set, Map
+ - Set: Conjunto de dados, não aceita repetição
+ - Map: Conjunto de dados, aceita repetição, mas é indexado por chave e valor
+ - Pelo navegador só é possível testar rotas do tipo get
