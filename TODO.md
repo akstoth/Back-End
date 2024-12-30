@@ -9,5 +9,18 @@
     - [x] Banco de dados em memória
     - [x] Banco de dados
         - [x] PostgresJS
-    - [ ] Deploy do projeto
-        - [ ] Render
+    - [x] Deploy do projeto
+        - [x] Render
+
+# Roadmap de estudos
+- [ ] APIs Nativas
+    - [ ] FileSystem, Stream, Cryto
+- [ ] TypeScript
+- [ ] Autenticação JWT
+- [ ] Princípios SOLID
+- [ ] SQL (ORM - Prisma)
+- [ ] Docker
+- [ ] Frameworks (Fastify/ NestJS)
+- [ ] Testes automatizados (Jest/ Vitest)
+- [ ] Arquitetura de Software
+- [ ] Deploy & CI/CD

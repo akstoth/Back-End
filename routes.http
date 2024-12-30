@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-dwb5.onrender.com/videos
 Content-Type: application/json 
 
 {
@@ -8,18 +8,18 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3333/videos
+GET https://node-do-zero-dwb5.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/86e73f74-f09b-412b-a564-de50ac5edc1f
+PUT https://node-do-zero-dwb5.onrender.com/videos/fce190ef-ae87-41f2-919f-6eb6347b75b9
 Content-Type: application/json 
 
 {
-    "title": "Video 05 - node",
-    "description": "Este é o vídeo de teste de busca",
+    "title": "Video 06",
+    "description": "Este é o vídeo de teste com novo host",
     "duration": 180
 }
 
 ###
-DELETE http://localhost:3333/videos/dde1a5e4-d880-494d-a9d5-e8cdf4418748
+DELETE https://node-do-zero-dwb5.onrender.com/videos/dde1a5e4-d880-494d-a9d5-e8cdf4418748
 
