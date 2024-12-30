@@ -122,3 +122,10 @@ server.delete('/videos/:id', () => {
  - Set: Conjunto de dados, não aceita repetição
  - Map: Conjunto de dados, aceita repetição, mas é indexado por chave e valor
  - Pelo navegador só é possível testar rotas do tipo get
+ - Para teste, cria um vídeo no banco de dados:
+    database.create({
+        title: 'Video 01',
+        description: 'Esse é o video 01',
+        duration: 180,
+    })
+    console.log(database.list())

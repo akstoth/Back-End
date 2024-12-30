@@ -2,11 +2,12 @@
  - [x] Criando um servidor sem framework
  - [x] Criando um servidor com framework
     - [ ] CRUD(Create, Read, Update, Delete)
-        - [ ] Rotas
-        - [ ] Request Body
-        - [ ] Route parameters
-    - [ ] Banco de dados em memória
-    - [ ] Banco de dados
-        - [ ] PostgresJS
+        - [x] Rotas
+        - [x] Request Body
+        - [x] Route parameters
+        - [x] Query parameters
+    - [x] Banco de dados em memória
+    - [x] Banco de dados
+        - [x] PostgresJS
     - [ ] Deploy do projeto
         - [ ] Render

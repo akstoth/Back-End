@@ -12,8 +12,24 @@ export class DatabaseMemory {
     #videos = new Map() // Array de videos
     
     // Criando métodos para manusear o banco de dados
-    list() {
-        return this.#videos.values() // Retorna todos os valores do banco de dados sem ids
+    list(search) {
+        return Array.from(this.#videos.entries()).map((videoArray) => {
+            const id = videoArray[0]
+            const data = videoArray[1]
+
+            return {
+                id,
+                ...data,
+            }
+        }) // Retorna todos os valores do banco de dados sem ids
+        
+        // Filtra os vídeos pelo título
+        .filter(video => {
+            if(search){
+                return video.title.includes(search)
+            }
+            return true
+        })
     }
 
     create(video) {
